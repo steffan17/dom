@@ -1,0 +1,72 @@
+
+*, *::before, *::after {
+    box-sizing: border-box; }
+
+@import "assets/cssReset.scss";
+@import "assets/menu.scss";
+@import "assets/footer.scss";
+@import "assets/cookbook.scss";
+
+.o-container{
+    margin: 0;
+    //height: 100%;
+  
+    flex-direction: column;
+    background: white;
+    justify-content: space-around;
+   
+}
+
+
+.o-content{
+    background: white;
+ 
+}
+
+.o-distance
+{
+    height: 10%;
+}
+.o-dayMenu{
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    height: 80%;
+    text-align: center;
+    
+
+}
+.o-dayField{
+    flex: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 7%;
+    margin-bottom: 7%;
+    padding-top: 5%;
+    border: 1px solid black;
+}
+.o-dayName
+{
+    text-decoration-line: underline;
+    font-size: 150%;
+    margin-bottom: 5%;
+}
+
+.o-dayMenuButtons
+{
+    display: flex;
+    justify-content: space-around;
+}
+.o-dayMenuButton
+{
+    border: 1px solid black;
+    padding: 3%;
+    //z-index: 100;
+}
+
+.o-dayMenuButton:hover
+{
+background-color: black;
+color: white;
+}
